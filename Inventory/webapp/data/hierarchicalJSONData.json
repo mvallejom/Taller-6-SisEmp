@@ -1,0 +1,326 @@
+{
+	"static": {},
+	"combined": {
+		"ToysSet": [{
+			"ID": "E1",
+			"Images": "assets/drone.png",
+			"Name": "Drone",
+			"Description": null,
+			"Demand": 4500,
+			"Nodes": [{
+				"ID": "M10",
+				"Name": "Propeller",
+				"Description": "Propeller",
+				"Demand": 250,
+				"Images": "assets/Propeller.png"
+			}, {
+				"ID": "M14",
+				"Name": "Drone Camera",
+				"Description": "Drone Camera",
+				"Demand": 700,
+				"Images": "assets/Drone camera.png"
+			}]
+		}, {
+			"ID": "E2",
+			"Images": "assets/flyingcar.png",
+			"Name": "Flying Car",
+			"Description": null,
+			"Demand": 1200,
+			"Nodes": [{
+				"ID": "M1",
+				"Name": "Tire",
+				"Description": "Tires",
+				"Demand": 400,
+				"Images": "assets/Tire.png"
+			}, {
+				"ID": "M2",
+				"Name": "Steering Wheel",
+				"Description": "Steering Wheel",
+				"Demand": 600,
+				"Images": "assets/Steering-Wheel.png"
+			}, {
+				"ID": "M3",
+				"Name": "Side Mirror",
+				"Description": "Side Mirror",
+				"Demand": 500,
+				"Images": "assets/Side-Mirror.png"
+			}, {
+				"ID": "M15",
+				"Name": "Bumper",
+				"Description": "Bumper",
+				"Demand": 450,
+				"Images": "assets/Bumper.png"
+			}]
+		}, {
+			"ID": "E3",
+			"Images": "assets/jetpack.png",
+			"Name": "JetPack",
+			"Description": null,
+			"Demand": 3500,
+			"Nodes": [{
+				"ID": "M11",
+				"Name": "Parachute",
+				"Description": "Parachute",
+				"Demand": 400,
+				"Images": "assets/Parachute.png"
+			}]
+		}, {
+			"ID": "E4",
+			"Images": "assets/virtualcamera.png",
+			"Name": "Virtual Camera",
+			"Description": null,
+			"Demand": 1000,
+			"Nodes": [{
+				"ID": "M16",
+				"Name": "Camera",
+				"Description": "Drone Camera",
+				"Demand": 750,
+				"Images": "assets/Drone camera.png"
+			}]
+		}, {
+			"ID": "E5",
+			"Images": "assets/supesonic_headphones.png",
+			"Name": "SuperSonic Headphone",
+			"Description": null,
+			"Demand": 2000,
+			"Nodes": [{
+				"ID": "M13",
+				"Name": "Headphone Ear Piece",
+				"Description": "Headphone Ear Piece",
+				"Demand": 500,
+				"Images": "assets/Headphone ear peace.png"
+			}]
+		}, {
+			"ID": "E6",
+			"Images": "assets/robot.png",
+			"Name": "Robot",
+			"Description": null,
+			"Demand": 2000,
+			"Nodes": [{
+				"ID": "M8",
+				"Name": "Robot Teeth",
+				"Description": "Robot Teeth",
+				"Demand": 500,
+				"Images": "assets/Robot teeth.png"
+			}, {
+				"ID": "M9",
+				"Name": "Robot Belly",
+				"Description": "Robot Belly",
+				"Demand": 580,
+				"Images": "assets/Robot belly.png"
+			}]
+		}, {
+			"ID": "E7",
+			"Images": "assets/Satelllite.png",
+			"Name": "Satellite",
+			"Description": null,
+			"Demand": 2000,
+			"Nodes": [{
+				"ID": "M4",
+				"Name": "Satellite Solar Panel",
+				"Description": "Satellite Solar Panel",
+				"Demand": 700,
+				"Images": "assets/Satellite Solar Panel.png"
+			}, {
+				"ID": "M5",
+				"Name": "Satellite Bridge",
+				"Description": "Statellite Bridge",
+				"Demand": 450,
+				"Images": "assets/Satellite Bridge.png"
+			}]
+		}, {
+			"ID": "E8",
+			"Images": "assets/Rocket.png",
+			"Name": "Rocket",
+			"Description": null,
+			"Demand": 2500,
+			"Nodes": [{
+				"ID": "M6",
+				"Name": "Rocket window",
+				"Description": "Rocket Window",
+				"Demand": 650,
+				"Images": "assets/Rocket window.png"
+			}, {
+				"ID": "M7",
+				"Name": "Rocket leg",
+				"Description": "Rocket Leg",
+				"Demand": 200,
+				"Images": "assets/Rocket leg.png"
+			}]
+		}, {
+			"ID": "E9",
+			"Images": "assets/Hovercraft.png",
+			"Name": "Hovercraft",
+			"Description": null,
+			"Demand": 700,
+			"Nodes": [{
+				"ID": "M12",
+				"Name": "HoverCraft Body",
+				"Description": "Hover Craft Body",
+				"Demand": 600,
+				"Images": "assets/HoverCraft body.png"
+			}]
+		}],
+		"PartsSet": [{
+			"ID": "M1",
+			"Name": "Tire",
+			"Description": "Tires",
+			"Available": 297,
+			"Demand": 400,
+			"Unit": "Units",
+			"Link": null,
+			"Images": "assets/Tire.png",
+			"___FK_539e2ccd0c38224a0c8a81df": "E2"
+		}, {
+			"ID": "M2",
+			"Name": "Steering Wheel",
+			"Description": "Steering Wheel",
+			"Available": 300,
+			"Demand": 600,
+			"Unit": "Units",
+			"Link": null,
+			"Images": "assets/Steering-Wheel.png",
+			"___FK_539e2ccd0c38224a0c8a81df": "E2"
+		}, {
+			"ID": "M3",
+			"Name": "Side Mirror",
+			"Description": "Side Mirror",
+			"Available": 250,
+			"Demand": 500,
+			"Unit": "Units",
+			"Link": null,
+			"Images": "assets/Side-Mirror.png",
+			"___FK_539e2ccd0c38224a0c8a81df": "E2"
+		}, {
+			"ID": "M4",
+			"Name": "Satellite Solar Panel",
+			"Description": "Satellite Solar Panel",
+			"Available": 400,
+			"Demand": 700,
+			"Unit": "Units",
+			"Link": null,
+			"Images": "assets/Satellite Solar Panel.png",
+			"___FK_539e2ccd0c38224a0c8a81df": "E7"
+		}, {
+			"ID": "M5",
+			"Name": "Satellite Bridge",
+			"Description": "Statellite Bridge",
+			"Available": 250,
+			"Demand": 450,
+			"Unit": "Units",
+			"Link": null,
+			"Images": "assets/Satellite Bridge.png",
+			"___FK_539e2ccd0c38224a0c8a81df": "E7"
+		}, {
+			"ID": "M6",
+			"Name": "Rocket window",
+			"Description": "Rocket Window",
+			"Available": 400,
+			"Demand": 650,
+			"Unit": "Units",
+			"Link": null,
+			"Images": "assets/Rocket window.png",
+			"___FK_539e2ccd0c38224a0c8a81df": "E8"
+		}, {
+			"ID": "M7",
+			"Name": "Rocket leg",
+			"Description": "Rocket Leg",
+			"Available": 85,
+			"Demand": 200,
+			"Unit": "Units",
+			"Link": null,
+			"Images": "assets/Rocket leg.png",
+			"___FK_539e2ccd0c38224a0c8a81df": "E8"
+		}, {
+			"ID": "M8",
+			"Name": "Robot Teeth",
+			"Description": "Robot Teeth",
+			"Available": 350,
+			"Demand": 500,
+			"Unit": "Units",
+			"Link": null,
+			"Images": "assets/Robot teeth.png",
+			"___FK_539e2ccd0c38224a0c8a81df": "E6"
+		}, {
+			"ID": "M9",
+			"Name": "Robot Belly",
+			"Description": "Robot Belly",
+			"Available": 280,
+			"Demand": 580,
+			"Unit": "Units",
+			"Link": null,
+			"Images": "assets/Robot belly.png",
+			"___FK_539e2ccd0c38224a0c8a81df": "E6"
+		}, {
+			"ID": "M10",
+			"Name": "Propeller",
+			"Description": "Propeller",
+			"Available": 150,
+			"Demand": 250,
+			"Unit": "Units",
+			"Link": null,
+			"Images": "assets/Propeller.png",
+			"___FK_539e2ccd0c38224a0c8a81df": "E1"
+		}, {
+			"ID": "M11",
+			"Name": "Parachute",
+			"Description": "Parachute",
+			"Available": 297,
+			"Demand": 400,
+			"Unit": "Units",
+			"Link": null,
+			"Images": "assets/Parachute.png",
+			"___FK_539e2ccd0c38224a0c8a81df": "E3"
+		}, {
+			"ID": "M12",
+			"Name": "HoverCraft Body",
+			"Description": "Hover Craft Body",
+			"Available": 300,
+			"Demand": 600,
+			"Unit": "Units",
+			"Link": null,
+			"Images": "assets/HoverCraft body.png",
+			"___FK_539e2ccd0c38224a0c8a81df": "E9"
+		}, {
+			"ID": "M13",
+			"Name": "Headphone Ear Piece",
+			"Description": "Headphone Ear Piece",
+			"Available": 250,
+			"Demand": 500,
+			"Unit": "Units",
+			"Link": null,
+			"Images": "assets/Headphone ear peace.png",
+			"___FK_539e2ccd0c38224a0c8a81df": "E5"
+		}, {
+			"ID": "M14",
+			"Name": "Drone Camera",
+			"Description": "Drone Camera",
+			"Available": 400,
+			"Demand": 700,
+			"Unit": "Units",
+			"Link": null,
+			"Images": "assets/Drone camera.png",
+			"___FK_539e2ccd0c38224a0c8a81df": "E1"
+		}, {
+			"ID": "M15",
+			"Name": "Bumper",
+			"Description": "Bumper",
+			"Available": 250,
+			"Demand": 450,
+			"Unit": "Units",
+			"Link": null,
+			"Images": "assets/Bumper.png",
+			"___FK_539e2ccd0c38224a0c8a81df": "E2"
+		}, {
+			"ID": "M16",
+			"Name": "Camera",
+			"Description": "Drone Camera",
+			"Available": 400,
+			"Demand": 750,
+			"Unit": "Units",
+			"Link": null,
+			"Images": "assets/Drone camera.png",
+			"___FK_539e2ccd0c38224a0c8a81df": "E4"
+		}]
+	}
+}
